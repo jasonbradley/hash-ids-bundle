@@ -17,7 +17,7 @@ new JasonBradley\HashIdsBundle\JasonBradleyHashIdsBundle()
 
 ### 3. Bundle Configuration example (config.yml)
 ```
-hashids:
+jason_bradley_hash_ids:
     salt: abc123
     min_hash_length: 25
     alphabet: "abcdefghijklmnopqrstuvwxyz"
