@@ -1,0 +1,4 @@
+services:
+    hash_ids:
+        class: Hashids\Hashids
+        arguments: ["%hashids.salt%", "%hashids.min_hash_length%", "%hashids.alphabet%"]
