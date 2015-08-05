@@ -16,7 +16,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "JasonBradley\\HashIdsBundle": "" }
+        "psr-4": { "JasonBradley\\HashIdsBundle\\": "" }
     },
     "target-dir": "jasonbradley/HashIdsBundle"
 }
