@@ -1,5 +1,5 @@
 {
-    "name": "JasonBradley/hash-ids-bundle",
+    "name": "jasonbradley/hash-ids-bundle",
     "description": "Symfony2 Bundle for HashIds library - http://hashids.org/php/",
     "keywords": ["hashids"],
     "type": "symfony-bundle",
