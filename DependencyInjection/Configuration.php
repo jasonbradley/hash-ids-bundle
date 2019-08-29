@@ -17,8 +17,13 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('jason_bradley_hash_ids');
+        $treeBuilder = new TreeBuilder('jason_bradley_hash_ids');
+
+        if (method_exists($treeBuilder, 'getRootNode')) {
+            $rootNode = $treeBuilder->getRootNode();
+        } else {
+            $rootNode = $treeBuilder->root('jason_bradley_hash_ids');
+        }
 
         $rootNode
             ->children()
